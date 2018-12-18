@@ -1,4 +1,5 @@
 # jquery.lazyload.mine
+与jquery.lazyload.js不同的是 ``添加了图片加载超时的情况下显示超时占位图，并且点击时可以重新加载``
 ```
 $(selector).lazyload({
   threshold       : 0, // 距离窗口多少时开始加载
